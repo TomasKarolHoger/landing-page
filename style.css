@@ -86,6 +86,31 @@ h1 {
   align-items: center;
 }
 
+.quote-container {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quote {
+  font-size: 30px;
+  font-weight: 100;
+  font-style: italic;
+  max-width: 650px;
+}
+
+.quote-container .quote-author{
+  text-align: end;
+  font-weight: 500;
+  font-size: 17px;
+}
+
 footer {
   background-color: #1F2937;
   color: #E5E7EB;
