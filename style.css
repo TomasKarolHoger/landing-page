@@ -4,3 +4,33 @@ body, p, h1, h2, h3, h4, ul {
   font-family: 'Roboto', sans-serif;
 }
 
+header {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #1F2937;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  white-space: nowrap;
+}
+
+h3 {
+  color: #F9FAF8;
+  font-size: 26px;
+  font-weight: 500;
+  margin-right: 300px;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 16px;
+  font-weight: 300;
+}
